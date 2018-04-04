@@ -8,4 +8,4 @@
 08-add-delivery-report.patch
 09-createMultiparty-synchronous.patch
 10-use_right_modem_objpath.patch
-11_use_libdir
+11_use_libdir.patch
