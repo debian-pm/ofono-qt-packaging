@@ -1,0 +1,35 @@
+Source: ofono-qt
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 11),
+               doxygen,
+               quilt,
+               qt5-default (>= 5.0),
+               qtbase5-dev (>= 5.0)
+Standards-Version: 4.1.3
+Section: libs
+Vcs-Git: git://gitorious.org/meego-cellular/ofono-qt.git
+
+Package: libofono-qt1
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: Qt oFono library
+ This package contains ofono-qt, a Qt-based library that provides
+ bindings to oFono.
+ .
+ oFono is a free software project for mobile telephony (GSM/UMTS)
+ applications. It is build on 3GPP standards and uses a high-level
+ D-Bus API for use by telephony applications.
+
+Package: libofono-qt-dev
+Section: libdevel
+Architecture: any
+Depends: libofono-qt1 (= ${binary:Version}), ${misc:Depends}
+Description: Qt oFono library (development files)
+ This package contains development files for ofono-qt, a Qt-based
+ library that provides bindings to oFono.
+ .
+ oFono is a free software project for mobile telephony (GSM/UMTS)
+ applications. It is build on 3GPP standards and uses a high-level
+ D-Bus API for use by telephony applications.

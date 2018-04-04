@@ -1,0 +1,11 @@
+01-update_code_compatible_qt5.patch
+02-change_signals_Q_SIGNALS_Q_SLOTS.patch
+03-update_MessageManager_VoiceCallManager_to_match_latest_ofono_api.patch
+04-set_errors_on_dial_and_sendMessage.patch
+05-update_connman_interface_to_the_new_layout.patch
+06-fix_unit_tests.patch
+07-simplify_code_logic.patch
+08-add-delivery-report.patch
+09-createMultiparty-synchronous.patch
+10-use_right_modem_objpath.patch
+11_use_libdir
